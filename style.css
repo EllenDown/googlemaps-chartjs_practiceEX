@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
+  font-family: 'Exo', sans-serif;
+}
+
+nav {
+  padding-right: 40px;
+  padding-bottom: 5px;
+}
+
+.title {
+  font-family: 'Exo';
+  font-size: 3rem;
+  opacity: .6;
+  text-shadow: 2px;
+  opacity: .7;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  background-color: #0066CC;
+}
+
+main {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#map {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 60vh;
+}
+
+.mapLabel {
+  font-size: 2rem;
+  margin-right: 50%;
+  text-shadow: 2px 5px 5px #0066CC;
+}
+
+#powerGraph {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.statsHeader {
+  padding-bottom: 5px;
+}
+
+.statsContainer {
+  border-left: thick solid black;
+  line-height: 0.5rem;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #0066CC;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  text-shadow: 2px 5px 5px #0066CC;
+}
+
+.statsContainer p {
+  font-size: .9rem;
+}
+
+footer {
+  letter-spacing: .1rem;
+  padding-bottom: 10px;
+}
